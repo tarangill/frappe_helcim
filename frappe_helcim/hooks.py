@@ -8,6 +8,12 @@ app_license = "mit"
 # Apps
 # ------------------
 
+# app_include_js = [
+#     "/assets/frappe_helcim/js/frappe_helcim.js"
+# ]
+
+page_js = {"point-of-sale" : "scripts/point_of_sale/point_of_sale.js"}
+
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
