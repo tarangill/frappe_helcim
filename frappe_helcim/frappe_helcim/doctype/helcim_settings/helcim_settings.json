@@ -6,7 +6,7 @@
   "fields": [
     { "fieldname": "api_key", "label": "API Key", "fieldtype": "Password", "reqd": 1 },
     { "fieldname": "api_url", "label": "API URL", "fieldtype": "Data", "default": "https://api.helcim.com/v2" },
-    { "fieldname": "credit_card_account", "label": "Credit Card Account", "fieldtype": "Link", "options": "Account" },
+    { "fieldname": "mode_of_payment", "label": "Helcim Mode of Payment", "fieldtype": "Link", "options": "Mode of Payment" },
     { "fieldname": "loss_account", "label": "Loss Account", "fieldtype": "Link", "options": "Account" }
   ],
   "permissions": [
